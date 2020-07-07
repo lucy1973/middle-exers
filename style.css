@@ -1,0 +1,366 @@
+/*style for body*/
+html {
+    margin: 0px; 
+}
+
+
+
+body {
+    font-family: 'Arial (Hebrew)', Arial;
+    margin: 0px; 
+    padding-top: 12px; 
+    background: #fff; 
+    background-image: url(images/header_bg.png);
+    background-repeat: repeat-x;
+    background-position: top center;
+   
+}
+
+
+              
+ 
+    h3 { 
+        font-size: 14px;   
+        font-weight: bold;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        padding-right: 2px;
+
+    }
+
+   
+
+.header {
+    width:900px;
+    margin: 30px 200px 0 420px;
+    
+}
+
+
+/*forma search*/
+   input [type=text] {
+    width: 100px;
+    border: 1px grey solid;
+    }
+
+
+/*footer*/
+
+#footer {
+    width: 100%;
+    height: 44px;
+    position: fixed;
+    background-color: gray;
+    background-image: url(images/footer_bg.png);
+    background-repeat: repeat-x;
+    background-position: top center;
+    bottom: 0px;
+    right: 0px;
+}
+
+/*link*/
+a {
+    text-decoration: none;
+    color: white;}
+
+ /*Upper navigation bar */    
+
+nav a:hover {
+    color: #005ca0;
+    text-decoration: underline;
+} 
+
+
+* {
+    box-sizing: border-box;
+  }
+
+.navbar {
+      margin-top: 50px;
+      font-weight: bold;
+      font-size: 15px;
+      direction: rtl;
+  }
+
+.ul {
+    margin: 0px;
+    position: relative;
+}
+
+  .dropdown-content {
+    background-color: #989898;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 10 px  16px;
+  }
+
+  nav ul li {
+    margin: 0px 7px 0 0;
+    }
+  
+  nav > ul {
+    list-style: none;
+    padding-left: 0px;
+    padding-right: 10px;
+    direction: rtl;
+  }
+  
+  nav > ul > li > a, .dropdown-content > a {
+    color:white;
+    text-decoration: none;
+    padding: 10px 20px 20px 0px;
+    display: block;
+   }
+
+  
+  
+  nav > ul > li > a:hover, .dropdown-content > a:hover >.dropdown:hover > a  {
+    color: #005ca0;
+    text-decoration: underline;	
+  }
+
+  nav > ul > a  {
+          color: #005ca0;
+        }
+  
+  #home {
+      margin-right: 25px;
+      margin-top: 10px;
+  }
+
+ 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 7px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 70%;
+    top: 55%;
+    right: 20%;
+    box-shadow: 5px 5px 9px 0px rgba(0,0,0,0.25);
+    padding: 3px;
+    z-index: 3;
+
+    }
+  
+  .dropdown:hover > .dropdown-content {
+    display: block;
+    text-decoration: #005ca0;
+  }
+
+  p {
+      margin: 0px;
+      margin-left: 0px;
+      padding-right: 2px;
+      direction: rtl;
+}
+
+.conteiner {
+    display: inline-block;
+    width: 960px;
+    margin-top: 0 px;
+    margin-left: 350px;
+    margin-right: 0;
+    padding: 0;
+}
+
+/*Style for big tabs picture items*/
+
+
+.bigpic {
+    position: relative;
+    float: right;
+    width:291px;
+    height: 350px;
+    border: solid grey 1px;
+    margin: 20px 0px 0px 0px;
+    border-bottom-right-radius: 20px;
+    }   
+
+#bigpic01 {
+    position: relative;
+    float: right;
+    width:291px;
+    height: 350px;
+    border: solid grey 1px;
+    margin: 20px 9px 0px 9px;
+    border-bottom-right-radius: 20px;
+    background-image: url(images/Picture-046410251500.jpg);
+} 
+
+#picture {
+    background-image: url(images/1908364606615453350.jpg);
+}
+
+#picture1 {
+    background-image: url(images/354410564000.jpg);
+}
+
+.conttext {
+    display: block;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    text-align: right;
+    padding: 0px 5px 0px 5px;
+    width: 248px;
+    height: 97px;
+    color: white;
+    font-size: 12px;
+    border-bottom-right-radius: 20px;
+    background-image: url(images/hp_tab_text_bg.png);
+  }
+
+#arrow {
+    position: relative;
+    text-decoration: underline;
+    margin-right: 180px;
+}
+
+#listSt {
+    font-size: 12px;
+    font-weight: bold;
+    color: #005ca0;
+    text-decoration: underline; 
+}
+
+ 
+/*Style for lists common*/
+li {
+    float: right;
+    list-style: none;
+    margin-right: 0;
+    }
+
+/*Style for small tabs advertising items*/
+
+.adv {
+    float: right;
+    width:291px;
+    height: 190px;
+    border: solid grey 1px;
+    margin: 20px 0px 0px 0px;
+    border-radius: 0 20px 0 0;
+}   
+
+#adv01 {
+    margin: 20px 9px 0px 9px;
+}
+
+/*Logo Paz*/
+.logo {
+float: right;
+    list-style: none;
+    margin-right: 10px;
+}
+
+/*Style for small tabs images*/
+
+#adv01 {
+    background-image: url(images/250X110668568400.jpg), linear-gradient(-90deg, #E0E0E0, white);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#adv02 {
+    background-image: url(images/paz_250x110059890678.jpg), linear-gradient(-90deg, #E0E0E0, white);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+#adv03 {
+    background-image: url(images/map-3058756287.jpg), linear-gradient(-90deg, #E0E0E0, white);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
+}
+
+/*text on small images*/
+
+.cont {
+    position: relative;
+    text-align: center;
+    color: #005ca0;
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+/* Bottom left text */
+.bottom-left {
+    position: absolute;
+    bottom: -180px;
+    left: 18px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+ #bottom-left3 {
+    top: 36px;
+    left: 240px;
+ }
+
+ #bottom-left2 {
+    top: 56px;
+    left: 240px;
+ }
+
+ #bottom-left1 {
+    top: 76px;
+    left: 240px;
+ }
+
+  
+  /* Top right text */
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 18px;
+  }
+ 
+ 
+
+
+
+/*Style for down navigation bar*/
+
+
+.menu .menuBottom {
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 0;
+    margin-left: 390px;
+    }
+
+
+.listBot #listBot1 {
+    font-size: 14px;
+    }
+
+
+#listBot1 {
+    color: red;
+}
+
+
+.down {
+    display: inline-block;
+    direction: rtl;
+    margin: 1px;
+    padding-right: 5px;
+    border-right: 1px solid white;
+}
+
+#facebook {
+    margin-right: 3px;
+    border-right: none;
+}
